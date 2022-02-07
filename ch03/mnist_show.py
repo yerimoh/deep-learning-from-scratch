@@ -6,7 +6,7 @@ from dataset.mnist import load_mnist
 from PIL import Image
 
 
-def img_show(img):
+def img_show(img): 
     pil_img = Image.fromarray(np.uint8(img))
     pil_img.show()
 
